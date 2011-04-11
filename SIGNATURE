@@ -1,0 +1,53 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 8113414d9dd3c43f3f63ac7313bc4a63ac88f64b Build.PL
+SHA1 d6d1f8e022828e2a24b4fddf868fccb4e56a140c CHANGES
+SHA1 e45c6ea19a72bbbd57e17f058de98ae0cbf9a4f2 MANIFEST
+SHA1 ce7dcf5497d2cf39abc92ff1f3bf255745f62637 META.yml
+SHA1 0d841a85ef4a1ad8c4935555f8279c5bba4dcf19 Makefile.PL
+SHA1 942b75c60d45518e37cb6bd86961008f04e950bd README
+SHA1 26fda1f8cbd4cdcb5118e95a7fbf42392a0c7381 lib/JSON/YAJL.pm
+SHA1 c42c1b78399970743b98b7560af6a4216de7e640 lib/JSON/YAJL/Generator.pm
+SHA1 b5ed6bd9c7cdd7be3b7777a72c750d795467a89b lib/JSON/YAJL/Generator.xs
+SHA1 94773c84db3931a0874cad0c699d8e964122f56c t/pod.t
+SHA1 7b4b2d5af9f28001ff7c38c7bb4061d8ff32f729 t/simple.t
+SHA1 232b5149ad256c156a4f3c95ddc23e33250a865a typemap
+SHA1 c4369b49a450c2f1dc5e665819d7041ef21435f7 yajl/yajl.c
+SHA1 69e3c5a07718c93094070b47b6bcee51f27617e6 yajl/yajl_alloc.c
+SHA1 17fd6986b73df3efa271af2667ce7bb5a75239af yajl/yajl_alloc.h
+SHA1 02555dea145e347aa922fa9d21891888ec3e269c yajl/yajl_buf.c
+SHA1 ac7e0174f9202a36a0125997c3202333e980025e yajl/yajl_buf.h
+SHA1 13f2d597768d28fa306674ba281a26af3d70546e yajl/yajl_bytestack.h
+SHA1 e15ad825b85d1e91fe6883270c832234a23fef84 yajl/yajl_common.h
+SHA1 c2b988a4c1937af055f4ad6313244d379b1f7155 yajl/yajl_encode.c
+SHA1 0ac9cf2b7549ca325ca1738d3728948c560f350d yajl/yajl_encode.h
+SHA1 e1746ec4577725536d886adbc4d036dfe80346a9 yajl/yajl_gen.c
+SHA1 74d259333251cad8af30c24eb89b318bf40b36e6 yajl/yajl_gen.h
+SHA1 50bd50f792b2a92c06a53b6c5565436793783505 yajl/yajl_lex.c
+SHA1 26395cbd23b3f93f02cce7f847cd8068e9ce1c96 yajl/yajl_lex.h
+SHA1 7404a71b794491d03bd5a8786d94405a3edbd69a yajl/yajl_parse.h
+SHA1 96076a6f28d7b4d5c9c84a8327f92fcd4e746254 yajl/yajl_parser.c
+SHA1 0763f4cd992ac22be0f810153efa92239c1b87b1 yajl/yajl_parser.h
+SHA1 b7c5a9649fdd086d9e986459f2cee39986af7272 yajl/yajl_version.c
+SHA1 3c22da9f0540fc5edcd863a433a6adc04b538bc9 yajl/yajl_version.h
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAk2izmoACgkQnvdMljFk9hW2CACfXGC5C6b8Bo+K1f+sR8eo4eG/
+3vMAoKwYZjfuYNrLKrpUjzUi6QVmqHt1
+=UFgm
+-----END PGP SIGNATURE-----
