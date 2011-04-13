@@ -1,7 +1,7 @@
 package JSON::YAJL::Generator;
 use strict;
 use warnings;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 require XSLoader;
 XSLoader::load( 'JSON::YAJL::Generator', $VERSION );
@@ -77,6 +77,9 @@ JSON::YAJL::Generator - JSON generation with YAJL
 This module allows you to generator JSON with YAJL. This is quite a low-level
 interface for generating JSON and it accumulates JSON in an internal buffer
 until you fetch it.
+
+If you create certain invalid JSON constructs then this module throws an
+exception.
 
 This is a very early release to see how cross-platform the underlying code is.
 The API may change in future.

@@ -138,7 +138,7 @@ yajl_gen_free(yajl_gen g)
     }
 
 #define ENSURE_NOT_KEY \
-    if (g->state[g->depth] == yajl_gen_map_key) {   \
+    if (g->state[g->depth] == yajl_gen_map_key || g->state[g->depth] == yajl_gen_map_start) {   \
         return yajl_gen_keys_must_be_strings;       \
     }                                               \
 
@@ -193,6 +193,14 @@ yajl_gen_integer(yajl_gen g, long int number)
 #include <float.h>
 #define isnan _isnan
 #define isinf !_finite
+#endif
+
+/* Solaris doesn't have isinf? */
+#if defined (__SVR4) && defined (__sun)
+#ifndef isinf
+#include <ieeefp.h>
+#define isinf(x) (!finite((x)) && (x)==(x))
+#endif
 #endif
 
 yajl_gen_status
