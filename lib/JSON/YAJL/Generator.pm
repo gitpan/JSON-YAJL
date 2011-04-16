@@ -1,7 +1,7 @@
 package JSON::YAJL::Generator;
 use strict;
 use warnings;
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 require XSLoader;
 XSLoader::load( 'JSON::YAJL::Generator', $VERSION );
@@ -14,7 +14,7 @@ JSON::YAJL::Generator - JSON generation with YAJL
 
 =head1 SYNOPSIS
 
-  use JSON::YAJL::Generator;
+  use JSON::YAJL;
   my $yajl = JSON::YAJL::Generator->new();
   # or to beautify (indent):
   #  my $yajl = JSON::YAJL::Generator->new( 1, '    ' );
@@ -74,7 +74,7 @@ JSON::YAJL::Generator - JSON generation with YAJL
 
 =head1 DESCRIPTION
 
-This module allows you to generator JSON with YAJL. This is quite a low-level
+This module allows you to generate JSON with YAJL. This is quite a low-level
 interface for generating JSON and it accumulates JSON in an internal buffer
 until you fetch it.
 
@@ -94,4 +94,4 @@ This module is free software; you can redistribute it or modify it under the sam
 
 =head1 SEE ALSO
 
-L<JSON::YAJL>
+L<JSON::YAJL>, L<JSON::YAJL::Parser>

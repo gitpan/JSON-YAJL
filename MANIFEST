@@ -1,13 +1,24 @@
 Build.PL
 CHANGES
+examples/json_reformat.pl
+examples/small.json
 lib/JSON/YAJL.pm
 lib/JSON/YAJL/Generator.pm
 lib/JSON/YAJL/Generator.xs
+lib/JSON/YAJL/Parser.pm
+lib/JSON/YAJL/Parser.xs
 lib/JSON/YAJL/ppport.h
 MANIFEST			This list of files
+META.yml
+README
+t/both.t
+t/generator.t
+t/parser.t
 t/pod.t
-t/simple.t
 typemap
+yajl/ChangeLog
+yajl/COPYING
+yajl/README
 yajl/yajl.c
 yajl/yajl_alloc.c
 yajl/yajl_alloc.h
@@ -26,6 +37,4 @@ yajl/yajl_parser.c
 yajl/yajl_parser.h
 yajl/yajl_version.c
 yajl/yajl_version.h
-README
-META.yml
 SIGNATURE    Added here by Module::Build
