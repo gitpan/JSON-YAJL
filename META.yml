@@ -15,16 +15,24 @@ name: JSON-YAJL
 provides:
   JSON::YAJL:
     file: lib/JSON/YAJL.pm
-    version: 0.06
+    version: 0.07
   JSON::YAJL::Generator:
     file: lib/JSON/YAJL/Generator.pm
-    version: 0.06
+    version: 0.07
   JSON::YAJL::Parser:
     file: lib/JSON/YAJL/Parser.pm
-    version: 0.06
+    version: 0.07
 requires:
   Test::Exception: 0
   Test::More: 0
 resources:
+  bugtracker:
+    mailto: bug-JSON-YAJL@rt.cpan.org
+    web: http://rt.cpan.org/NoAuth/Bugs.html?Dist=JSON-YAJL
+  homepage: http://search.cpan.org/dist/JSON-YAJL/
   license: http://dev.perl.org/licenses/
-version: 0.06
+  repository:
+    type: git
+    url: https://github.com/acme/JSON--YAJL
+    web: git@github.com:acme/JSON--YAJL.git
+version: 0.07

@@ -1,6 +1,9 @@
 Build.PL
 CHANGES
+examples/json_decode.pl
 examples/json_reformat.pl
+examples/json_sax.pl
+examples/json_tokenize.pl
 examples/small.json
 lib/JSON/YAJL.pm
 lib/JSON/YAJL/Generator.pm
@@ -8,6 +11,7 @@ lib/JSON/YAJL/Generator.xs
 lib/JSON/YAJL/Parser.pm
 lib/JSON/YAJL/Parser.xs
 lib/JSON/YAJL/ppport.h
+LICENSE
 MANIFEST			This list of files
 META.yml
 README
