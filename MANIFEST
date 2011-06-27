@@ -13,7 +13,6 @@ lib/JSON/YAJL/Parser.xs
 lib/JSON/YAJL/ppport.h
 LICENSE
 MANIFEST			This list of files
-META.yml
 README
 t/both.t
 t/generator.t
@@ -39,6 +38,8 @@ yajl/yajl_lex.h
 yajl/yajl_parse.h
 yajl/yajl_parser.c
 yajl/yajl_parser.h
+yajl/yajl_tree.c
+yajl/yajl_tree.h
 yajl/yajl_version.c
 yajl/yajl_version.h
 SIGNATURE    Added here by Module::Build
