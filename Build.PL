@@ -14,16 +14,16 @@ my $build = Module::Build->new(
     license     => 'perl',
     meta_merge  => {
         resources => {
-            bugtracker => {
-                mailto => 'bug-JSON-YAJL@rt.cpan.org',
-                web => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=JSON-YAJL',
-            },
+#            bugtracker => {
+#                mailto => 'bug-JSON-YAJL@rt.cpan.org',
+#                web => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=JSON-YAJL',
+#            },
             homepage   => 'http://search.cpan.org/dist/JSON-YAJL/',
-            repository => {
-                type => 'git',
-                web  => 'git@github.com:acme/JSON--YAJL.git',
-                url  => 'https://github.com/acme/JSON--YAJL',
-            },
+#            repository => {
+#                type => 'git',
+#                web  => 'git@github.com:acme/JSON--YAJL.git',
+#                url  => 'https://github.com/acme/JSON--YAJL',
+#            },
         },
     },
     'meta-spec' => {
